@@ -4,3 +4,23 @@ main {
     top: 150px;
     z-index: 3;
 }
+
+a {
+    text-decoration: none;
+}
+
+.container-titulo {
+    position: relative;
+    left: 680px;
+    font-size: xx-large;
+    font-family: goldenfont;
+}
+
+.titles {
+    font-family: goldenfont;
+    text-align: center;
+}
+
+.container-links-stats {
+    width: 100%;
+}
