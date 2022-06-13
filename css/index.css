@@ -18,9 +18,14 @@ a {
 
 .titles {
     font-family: goldenfont;
-    text-align: center;
+    text-align: center; 
 }
 
 .container-links-stats {
     width: 100%;
+}
+
+.container-links-records {
+    width: 1%;
+
 }
