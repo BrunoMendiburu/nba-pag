@@ -1,0 +1,21 @@
+main {
+    position: absolute;
+    left: 1rem;
+    top: 150px;
+    z-index: 3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-titulo {
+    position: relative;
+    font-size: xx-large;
+    font-family: goldenfont;
+}
+
+.titles {
+    font-family: goldenfont;
+    text-align: center;
+}
