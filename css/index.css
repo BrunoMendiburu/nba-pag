@@ -133,15 +133,21 @@ main {
     color: rgb(255, 255, 255);
 }
 
-.container-titulo {
-    text-align: center;
+.gird-container {
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1.container-titulo {
+    position: relative;
     font-size: xx-large;
     font-family: goldenfont;
 }
 
 .titles {
+    position: relative;
     font-family: goldenfont;
-    text-align: center;
 }
 
 .gird-container {
@@ -149,21 +155,36 @@ main {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.gird-container .gird-item:nth-child(1)  {
+    position: relative;
+    left: 300px;
+ }
+
+ .gird-container .gird-item:nth-child(2)  {
+    position: relative;
+    left: 300px;
+ }
+
+ .gird-container .gird-item:nth-child(3)  {
+    position: relative;
+    left: 300px;
+ }
+
 .gird-container .gird-item:nth-child(4)  {
    position: relative;
-   left: 230px;
+   left: 460px;
 }
 
 .gird-container .gird-item:nth-child(5)  {
     position: relative;
-    left: 230px;
+    left: 460px;
  }
 
 .gird-item {
     background-color: #000000;
     border: 4px solid #f3aa1a;
     color: #1b63b5;
-    font-size: 38px;
+    font-size: 30px;
     font-family: goldenfont;
     margin: 10px 10px;
     height: 220px;
@@ -172,8 +193,8 @@ main {
 }
 
 .gird-container img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 220px;
+    max-height: 220px;
 }
 
 
