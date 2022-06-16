@@ -1,5 +1,4 @@
-
-
+/* INICIO DEL HEADER*/
 @font-face {
     font-family:goldenfont;
     src: url(/imgs/goldenfont.ttf);
@@ -109,7 +108,7 @@ span {
     user-select: none;
 }
 
-img {
+.img-logo {
     max-width: 100%;
     max-height: 100%;
 }
@@ -118,6 +117,7 @@ img {
     background-color: black;
     margin: 0px;
     padding: 0px;
-    z-index: 3;
-    color: #ffff;
+    z-index: 2;
 }
+
+/*FIN DE HEADER*/
