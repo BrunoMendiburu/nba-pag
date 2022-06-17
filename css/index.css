@@ -131,6 +131,7 @@ main {
 .container-main {
     z-index: 3;
     color: rgb(255, 255, 255);
+    width: 100%;
 }
 
 .gird-container {
@@ -140,7 +141,7 @@ main {
 }
 
 h1.container-titulo {
-    position: relative;
+    text-align: center;
     font-size: xx-large;
     font-family: goldenfont;
 }
@@ -190,6 +191,7 @@ h1.container-titulo {
     height: 220px;
     border-radius: 10px;
     transition: all .5s;
+    animation: move 2s linear infinite;
 }
 
 .gird-container img {
@@ -197,4 +199,30 @@ h1.container-titulo {
     max-height: 220px;
 }
 
+.message {
+    color: #fff;
+    display: block;
+    margin: auto;
+}
 
+/*@keyframes move {
+    0%, 100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(20px);
+    }
+
+    50% {
+        transform: translateY(50px);
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+}*/
