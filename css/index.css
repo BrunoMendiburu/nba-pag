@@ -180,4 +180,51 @@ main {
 /* BOTON 1*/
 
 /* BOTON 2*/
+.container {
+  width: 300px;
+  height: 400px;
+  background: #000;
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container span {
+  color: #1b63b5;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: goldenfont;
+  z-index: 1;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 550px;
+  left: 75px;
+  top: -100px;
+  background: linear-gradient(#1b63b5, #f3aa1a);
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  background: black;
+  border-radius: 18px;
+}
 /* BOTON 2*/
